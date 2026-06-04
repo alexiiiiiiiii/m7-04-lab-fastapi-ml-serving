@@ -1,0 +1,23 @@
+{
+  "req-001": {
+    "predictions": [
+      {
+        "label": "racy",
+        "probability": 0.87
+      },
+      {
+        "label": "violence",
+        "probability": 0.12
+      },
+      {
+        "label": "adult",
+        "probability": 0.05
+      }
+    ]
+  },
+  "req-002": {
+    "code": "INVALID_IMAGE",
+    "message": "The image file could not be decoded or is corrupted.",
+    "request_id": "a3b9a0c6-3d60-4c1d-b50a-2895781a742d"
+  }
+}

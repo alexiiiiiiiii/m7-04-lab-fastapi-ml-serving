@@ -1,0 +1,24 @@
+{
+  "predictions": [
+    {
+      "label": "racy",
+      "probability": 0.87
+    },
+    {
+      "label": "violence",
+      "probability": 0.12
+    },
+    {
+      "label": "adult",
+      "probability": 0.05
+    },
+    {
+      "label": "spoof",
+      "probability": 0.02
+    },
+    {
+      "label": "medical",
+      "probability": 0.01
+    }
+  ]
+}

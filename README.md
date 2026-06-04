@@ -129,3 +129,14 @@ You will be reviewed on:
 - **Do your example payloads validate against your own schemas?**
 
 Design-first thinking. No frameworks, just contracts.
+
+---
+
+## README Note
+### Image Size Assumption
+The base64 placeholder string `"iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNk+M9QDwADhgGAWjR9awAAAABJRU5ErkJggg=="` represents a 1x1 pixel PNG image (approximately 70 bytes). In practice, any valid base64-encoded image (JPEG/PNG/WebP) up to 5 MB is accepted.
+
+### Validation Command
+Run the OpenAPI validator with:
+`npx -y @redocly/cli lint openapi.yaml`
+

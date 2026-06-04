@@ -1,0 +1,5 @@
+{
+  "code": "PAYLOAD_TOO_LARGE",
+  "message": "The uploaded image size exceeds the maximum limit of 5 MB.",
+  "request_id": "a3b9a0c6-3d60-4c1d-b50a-2895781a742d"
+}
